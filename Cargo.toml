@@ -1,0 +1,26 @@
+[package]
+name = "guitar-firmware"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "guitar-firmware"
+test = false
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.5"
+
+embedded-hal = "1.0.0"
+rp235x-hal = { git = "https://github.com/rp-rs/rp-hal", version = "0.3.0", features = [
+  "binary-info",
+  "critical-section-impl",
+  "rt",
+  "defmt",
+] }
+panic-halt = "1.0.0"
+rp-binary-info = "0.1.1"
+usbd-hid = "0.8.2"
+usb-device = "0.3.2"
+serde = { version = "1.0.228", features = ["derive"], default-features = false }
+

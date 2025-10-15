@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.checkOnSave.overrideCommand": [
+        "cargo", "check", "--target=thumbv8m.main-none-eabihf"
+    ]
+}
