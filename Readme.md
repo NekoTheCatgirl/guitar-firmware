@@ -4,4 +4,4 @@ This project aims to provide a solution to convert a wireless guitar hero live c
 This requires some severe hardware modding to make it work (pictures pending)
 
 # Todo
-[ ] Add tilt support (read a imu)
+- [ ] Add tilt support (read a imu)
